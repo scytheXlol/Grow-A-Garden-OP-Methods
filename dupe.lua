@@ -7,4 +7,4 @@ local postTeleportScript = [[
 
 queue_on_teleport(postTeleportScript)
 
-TeleportService:TeleportToPlaceInstance(game.PlaceId, targetJobId)
+teleport_to_place_instance(game.PlaceId, targetJobId)
