@@ -5,6 +5,6 @@ local postTeleportScript = [[
     loadstring(game:HttpGet('https://raw.githubusercontent.com/scytheXlol/Grow-A-Garden-OP-Methods/refs/heads/main/dupe.lua'))()
 ]]
 
-TeleportService:QueueOnTeleport(postTeleportScript)
+queue_on_teleport(postTeleportScript)
 
 TeleportService:TeleportToPlaceInstance(game.PlaceId, targetJobId)
