@@ -8,3 +8,5 @@ local function Fire(obj)
 end
 
 Fire(Remote)
+
+TeleportService:TeleportToPlaceInstance(PlaceId, JobId)
